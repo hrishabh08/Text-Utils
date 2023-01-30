@@ -1,0 +1,35 @@
+
+.fullcontainer{
+    padding-top: 0px;
+}
+.btn{
+    background-color:rgb(64, 64, 211);
+    color: white;
+    margin-right: 10px;
+}
+.container .toggledark{
+    float: right;
+    width: 100px;
+    height: 30px;
+    background-color: #c24444;
+    color: white;
+    margin-top: 10px;
+    text-decoration: solid;
+    border-radius: 12px;
+    
+}
+.container .toggledark:hover{
+    color:black;
+    background-color: white;
+   
+    transition: ease-in-out;
+}
+.container .first{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.container{
+    margin-bottom: 5px;
+    height: 70vh;
+}
